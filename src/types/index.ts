@@ -22,6 +22,7 @@ export interface Section {
   lineColor?: string;
   fromName: string;
   toName: string;
+  stops: Station[];
 }
 
 export interface RouteModel {

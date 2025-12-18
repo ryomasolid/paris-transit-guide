@@ -7,7 +7,6 @@ import { MaterialIcons, FontAwesome5 } from '@expo/vector-icons';
 import { getLines, getStationsByLine } from '../services/api';
 import { Line, Station } from '../types';
 
-// 観光スポットの静的データ（copyTextを駅名/バス停名に変更）
 const TOURIST_SPOTS = [
   {
     id: 't1',
